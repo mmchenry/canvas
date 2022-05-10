@@ -66,13 +66,10 @@ def export_upload(root, cn_fieldname, propPart=0.75, pollValue=5):
 
         # Loop trhu IDs in canvas data
         for i in range(2,len(cnID)):
+        # for i in range(65,len(cnID)):
             
             # Index of emails that match current canvas netID
             idx = emails.str.startswith(cnID[i])
-
-            # default score values
-            tot_earn[i] = 0;
-            tot_part[i] = 0;
 
             # Check for multiple matches
             if sum(idx)>1:
