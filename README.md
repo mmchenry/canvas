@@ -6,4 +6,8 @@ Catalog of notebooks:
 
 1. [polleverywhere.ipynb](polleverywhere.ipynb) - Jupyter notebook for awarding participation credit for PollEverywhere online polls. 
 
-1.[finalgrades.ipynb](finalgrades.ipynb) - Calculates the grade cut-offs at the end of a quarter from downloaded gradebook data.
+1. [finalgrades.ipynb](finalgrades.ipynb) - Calculates the grade cut-offs at the end of a quarter from downloaded gradebook data.
+
+## Handling regrading
+
+Instructions for regrades: [regrade.md](regrade.md). 
